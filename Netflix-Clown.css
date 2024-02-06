@@ -1,0 +1,528 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;800&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
+}
+
+.main{
+    background-image: url(ASSESTS/images/main-background.jpg);
+    background-position: center center;
+    height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    
+}
+
+.box{
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-bottom: 10px rgb(37, 37, 37) solid;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+.navbar{
+    display: flex;
+    margin: auto;
+    justify-content: space-between ;
+    max-width: 80vw;
+    align-items: center;
+    height: 70px;
+    
+    
+}
+
+nav img{
+    color: red;
+    position: relative;
+    width: 160px;
+    z-index: 15;
+    margin-top: 20px;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: 100%;
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+
+}
+
+
+.main-text1{
+    color: white;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+    
+}
+
+.main-text2{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main-text3{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+
+}
+
+.email-box{
+    display: flex;
+    
+}
+
+.input1{
+    padding-left: 20px;
+    height: 60px;
+    width: 370px;
+    margin-right: 13px;
+    background-color: black;
+    opacity: 0.5;
+    border: 0.2px white solid;
+    border-radius: 4px;
+    color: white;
+    text-align: start;
+    font-size: larger;
+    color: white;
+    z-index: 10px;
+    
+
+}
+
+.ese-hi{
+    margin-top: 20px;
+}
+
+.login-button{
+    width: 210px;
+    height: 60px;
+    font-size: 23px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.signin{
+    background-color: red;
+    height: 40px;
+    width: 65px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.english{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-right: 20px;
+    border: 0.1px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+
+.option1{
+    text-align: center;
+}
+.big-box2{
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid rgb(49, 48, 48);
+
+}
+.img-div{
+    height: 400px;
+    width: 530px;
+    background-image: url(ASSESTS/images/stranger\ things\ main.jpg);
+    background-size: contain;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.text-div{
+    height: 490px;
+    width: 700px;
+    background-color: rgb(0, 0, 0);
+    /* display: flex; */
+    align-items: center;
+    /* justify-self: center; */
+    text-align: center;
+    
+    
+
+}
+.img2-div{
+    height: 126px;
+    width: 520px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    padding: 8px 12px;
+    border: 1.8px solid grey;
+    border-radius: 15px;
+    
+    
+}
+
+.img3-div{
+    background-image: url(ASSESTS/images/stranger\ things.png);
+    background-size: cover;
+    width: 70px;
+    height: 95px;
+    margin-right: 39px;
+    
+}
+.download{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 20px;
+
+
+}
+
+.offline{
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-right: 22px;
+    font-size: 42px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 160px;
+}
+
+
+.Save{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 35px;
+    color: white;
+    margin-top: 12px;
+}
+
+.big-box3{
+    background-color: black;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: ; */
+    border-bottom: 10px solid rgb(49, 48, 48);
+
+}
+
+
+.children{
+    background-image: url(ASSESTS/images/Children.png);
+    height: 500px;
+    width: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    /* margin-right: 80px; */
+}
+
+.text3{
+    height: 490px;
+    width: 900px;
+    background-color: rgb(0, 0, 0);
+    /* align-items: center; */
+    /* align-self: center; */
+    display: block;
+    text-align: left;
+    /* justify-content: center; */
+    align-items: center;
+    /* display: flex; */
+    /* margin-left: 1px; */
+    /* margin-bottom: 0px; */
+    /* margin-right: 150px; */
+    padding-bottom: 50px;
+    margin-top: 5px;
+
+}
+
+.sub-div{
+    display: flex;
+    justify-content: space-evenly;    
+    align-self: left;
+    align-items: center;
+}
+
+
+.create{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-block-start: 0.83em;
+    margin-top: 140px;
+    color: white;
+
+}
+
+.send{
+    margin-top: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+.big-box4{
+    background-color: black;
+    border-bottom: 10px solid rgb(49, 48, 48);
+    height: 1057px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.frequently{
+    height: 70px;
+    width: 1050px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 350px;
+    padding-top: 80px;
+    
+    
+}
+.what1{
+    height: 84px;
+    width: 1300px;
+    background-color: rgb(45,45,45);
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: 17px;
+}
+.how1{
+    height: 84px;
+    width: 1300px;
+    background-color: rgb(45,45,45);
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: 17px;
+    
+    
+}
+
+.where{
+    height: 84px;
+    width: 1300px;
+    background-color: rgb(45,45,45);
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: 17px;
+}
+
+.how2{
+    height: 84px;
+    width: 1300px;
+    background-color: rgb(45,45,45);
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: 17px;
+}
+
+.what2{
+    height: 84px;
+    width: 1300px;
+    background-color: rgb(45,45,45);
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: 17px;
+    
+}
+
+.is{
+    height: 84px;
+    width: 1300px;
+    background-color: rgb(45,45,45);
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: 17px;
+
+    
+}
+
+.ready-to-watch{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+
+.small-box{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 450px;
+    margin-top: 50px;
+
+}
+
+.input2{
+    padding-left: 20px;
+    height: 60px;
+    width: 370px;
+    margin-right: 13px;
+    background-color: black;
+    opacity: 0.5;
+    border: 0.2px white solid;
+    border-radius: 4px;
+    color: white;
+    text-align: start;
+    font-size: larger;
+    color: white;
+    z-index: 10px;
+    margin-left: 100px;
+    
+
+}
+
+.login-button2{
+    width: 210px;
+    height: 60px;
+    font-size: 23px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+
+.big-box5{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 10px rgb(49, 46, 46) solid;
+}
+
+
+li{
+    text-decoration: underline;
+    color: white;
+}
+
+.sub-div3{
+    height: 150px;
+    width: 1100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    align-self: center;
+    margin-left: 280px;
+    margin-top: 10px;
+    
+
+}
+
+.sub-div2{
+    margin-left: 280px;
+    background-color: rgb(0, 0, 0);
+    width: 1100px;
+    height: 50px;
+    text-align: left;
+    /* align-items: center; */
+    justify-content: left;
+    /* align-content: center; */
+    align-items: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-self: center; */
+    display: flex;
+    padding-top: 60px;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    
+
+}
+
+.last-div{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: medium;
+    font-weight: 200;
+    margin-left: 280px;
+    margin-top: 1px 
+
+}
